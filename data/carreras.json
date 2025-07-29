@@ -35,6 +35,10 @@
     "Nombre": "Ing. Comercial",
     "Link": "ICOM"
   },
+    {
+    "Nombre": "Ing. Comercial (Malla Antigua)",
+    "Link": "ICOM-0"
+  },
   {
     "Nombre": "Lic. Física",
     "Link": "FIS"
@@ -49,11 +53,11 @@
   },
   {
     "Nombre": "Ing. Civil Informática (Malla Antigua)",
-    "Link": "INF-O"
+    "Link": "INF-0"
   },
   {
-	"Nombre" : "Ing. Civil Informática (Malla Nueva [2025])",
-	"Link" : "INF-N"
+	"Nombre" : "Ing. Civil Informática",
+	"Link" : "INF"
   },
   {
     "Nombre": "Ing. Aviación Comercial",

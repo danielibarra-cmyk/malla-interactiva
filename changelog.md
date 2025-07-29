@@ -3,8 +3,9 @@ Changelog del proyecto. No es la gran cosa pero *podría* ser útil a futuro
 
 # [1.6.5]
 - Se agregó la malla que rige desde 2025 de Ingeniería Civil Informática
-  - (Se dejó la malla antigua, para que alumnos que la sigan usando, no tengan problemas)
-  - (Ahora en el índice habrán 2 mallas de Ingeniería Civil Informática)
+- Se agregó la malla que rige desde 2025 de Ingeniería Comercial
+- Las nuevas mallas remplazan a la anteriores, pero estas aún pueden acceder identificadas como anteriores.
+
 
 # [1.6.4]
 - La información de contacto se ha puesto al día
