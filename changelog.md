@@ -6,6 +6,7 @@ Changelog del proyecto. No es la gran cosa pero *podría* ser útil a futuro
 - Se agregó la malla que rige desde 2025 de Ingeniería Comercial
 - Las nuevas mallas remplazan a la anteriores, pero estas aún pueden acceder identificadas como anteriores.
 - Ligero cambio en información de contacto
+- Ahora se redireccionará a booterman98.github.io/malla-interactiva en caso de acceder desde otro dominio
 
 # [1.6.4]
 - La información de contacto se ha puesto al día
