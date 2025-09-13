@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "universidad": "Universidad Católica del Norte",
+    "departamento": "DIMM",
+    "carrera": "Ingeniería Civil de Minas",
+    "plan": "Vigente",
+    "creditos_total_sct": 247
+  },
+  "categorias": {
+    "Básica": {
+      "color": "#2E86C1"
+    },
+    "Profesional": {
+      "color": "#28B463"
+    },
+    "Formación General": {
+      "color": "#AF7AC5"
+    },
+    "Laboratorios/Prácticas": {
+      "color": "#F5B041"
+    },
+    "Electivos": {
+      "color": "#7F8C8D"
+    }
+  },
+  "asignaturas": [
+    {
+      "sigla": "CAL-I",
+      "nombre": "Cálculo I",
+      "sct": 6,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "FIS-I",
+      "nombre": "Introducción a la Física",
+      "sct": 6,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "ALG-I",
+      "nombre": "Álgebra I",
+      "sct": 6,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "IdU",
+      "nombre": "Identidad y Universidad",
+      "sct": 1,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "INGL-I",
+      "nombre": "Inglés I",
+      "sct": 4,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "COE-I",
+      "nombre": "Comunicación efectiva I",
+      "sct": 2,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "PInt",
+      "nombre": "Proyecto Introducción a la ingeniería",
+      "sct": 5,
+      "semestre": 1,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "CAL-II",
+      "nombre": "Cálculo II",
+      "sct": 6,
+      "semestre": 2,
+      "categoria": "Básica",
+      "prerreq": [
+        "CAL-I"
+      ]
+    },
+    {
+      "sigla": "ALG-II",
+      "nombre": "Álgebra II",
+      "sct": 6,
+      "semestre": 2,
+      "categoria": "Básica",
+      "prerreq": [
+        "ALG-I"
+      ]
+    },
+    {
+      "sigla": "INGL-II",
+      "nombre": "Inglés II",
+      "sct": 4,
+      "semestre": 2,
+      "categoria": "Básica",
+      "prerreq": [
+        "INGL-I"
+      ]
+    },
+    {
+      "sigla": "DFC-I",
+      "nombre": "Diálogo fe y cultura",
+      "sct": 2,
+      "semestre": 2,
+      "categoria": "Básica",
+      "prerreq": [
+        "IdU"
+      ]
+    },
+    {
+      "sigla": "CAL-III",
+      "nombre": "Cálculo III",
+      "sct": 5,
+      "semestre": 3,
+      "categoria": "Básica",
+      "prerreq": [
+        "CAL-II"
+      ]
+    },
+    {
+      "sigla": "MAT",
+      "nombre": "Materiales y estática",
+      "sct": 5,
+      "semestre": 3,
+      "categoria": "Básica",
+      "prerreq": [
+        "FIS-II"
+      ]
+    },
+    {
+      "sigla": "DFC-II",
+      "nombre": "Diálogo fe y ciencia",
+      "sct": 2,
+      "semestre": 3,
+      "categoria": "Básica",
+      "prerreq": [
+        "DFC-I"
+      ]
+    },
+    {
+      "sigla": "FGE",
+      "nombre": "Formación general electiva",
+      "sct": 2,
+      "semestre": 3,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "PDI",
+      "nombre": "Proyecto diseño e innovación",
+      "sct": 6,
+      "semestre": 3,
+      "categoria": "Básica",
+      "prerreq": [
+        "PInt"
+      ]
+    },
+    {
+      "sigla": "EST",
+      "nombre": "Estadística",
+      "sct": 6,
+      "semestre": 4,
+      "categoria": "Básica",
+      "prerreq": [
+        "CAL-II"
+      ]
+    },
+    {
+      "sigla": "GEO-I",
+      "nombre": "Geología general y estructural",
+      "sct": 5,
+      "semestre": 4,
+      "categoria": "Básica",
+      "prerreq": []
+    },
+    {
+      "sigla": "ETP",
+      "nombre": "Ética y moral profesional",
+      "sct": 2,
+      "semestre": 4,
+      "categoria": "Básica",
+      "prerreq": [
+        "DFC-II"
+      ]
+    },
+    {
+      "sigla": "PIM",
+      "nombre": "Proyecto Intro a la Min",
+      "sct": 6,
+      "semestre": 4,
+      "categoria": "Básica",
+      "prerreq": [
+        "PInt"
+      ]
+    },
+    {
+      "sigla": "INGECO",
+      "nombre": "Ingeniería económica",
+      "sct": 5,
+      "semestre": 5,
+      "categoria": "Profesional",
+      "prerreq": [
+        "CAL-II"
+      ]
+    },
+    {
+      "sigla": "SUST",
+      "nombre": "Ing y desarrollo sustentable",
+      "sct": 5,
+      "semestre": 5,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "CYT",
+      "nombre": "Carguio y transporte",
+      "sct": 5,
+      "semestre": 5,
+      "categoria": "Profesional",
+      "prerreq": [
+        "PInt"
+      ]
+    },
+    {
+      "sigla": "GEO-II",
+      "nombre": "Geología económica minera",
+      "sct": 5,
+      "semestre": 5,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GEO-I"
+      ]
+    },
+    {
+      "sigla": "GEOEST",
+      "nombre": "Modelamiento Geoestadístico",
+      "sct": 5,
+      "semestre": 5,
+      "categoria": "Profesional",
+      "prerreq": [
+        "EST"
+      ]
+    },
+    {
+      "sigla": "CAM",
+      "nombre": "Computación Aplicada a la Minería",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GEOEST"
+      ]
+    },
+    {
+      "sigla": "GEOM-I",
+      "nombre": "Geomecánica I",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GEO-I"
+      ]
+    },
+    {
+      "sigla": "MCA",
+      "nombre": "Minería a Cielo Abierto",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": [
+        "CYT"
+      ]
+    },
+    {
+      "sigla": "PYT",
+      "nombre": "Perforación y tronadura",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GMS"
+      ]
+    },
+    {
+      "sigla": "EPM-I",
+      "nombre": "Electivo Profesional Minor 1",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "PLM",
+      "nombre": "Planificación minera",
+      "sct": 5,
+      "semestre": 7,
+      "categoria": "Profesional",
+      "prerreq": [
+        "CYT"
+      ]
+    },
+    {
+      "sigla": "GEOM-II",
+      "nombre": "Geomecánica II",
+      "sct": 5,
+      "semestre": 7,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GEOM-I"
+      ]
+    },
+    {
+      "sigla": "PMET",
+      "nombre": "Procesos metalúrgicos",
+      "sct": 5,
+      "semestre": 7,
+      "categoria": "Profesional",
+      "prerreq": [
+        "GEO-II"
+      ]
+    },
+    {
+      "sigla": "EPM-II",
+      "nombre": "Electivo Profesional Minor 2",
+      "sct": 5,
+      "semestre": 6,
+      "categoria": "Profesional",
+      "prerreq": [
+        "EPM-I"
+      ]
+    },
+    {
+      "sigla": "PROUN",
+      "nombre": "Proyecto Op Unitarias",
+      "sct": 5,
+      "semestre": 7,
+      "categoria": "Profesional",
+      "prerreq": [
+        "CYT"
+      ]
+    },
+    {
+      "sigla": "GOPM",
+      "nombre": "Gest de Op y Pr Min",
+      "sct": 5,
+      "semestre": 8,
+      "categoria": "PLM",
+      "prerreq": [
+        "MS"
+      ]
+    },
+    {
+      "sigla": "LSM",
+      "nombre": "Legislación y seguridad minera",
+      "sct": 5,
+      "semestre": 8,
+      "categoria": "MCA",
+      "prerreq": []
+    },
+    {
+      "sigla": "VM",
+      "nombre": "Ventilación de Minas",
+      "sct": 5,
+      "semestre": 8,
+      "categoria": "Profesional",
+      "prerreq": [
+        "MS"
+      ]
+    },
+    {
+      "sigla": "EMP",
+      "nombre": "Emprendimiento",
+      "sct": 3,
+      "semestre": 8,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "COE-II",
+      "nombre": "Comunicación efectiva II",
+      "sct": 2,
+      "semestre": 8,
+      "categoria": "Profesional",
+      "prerreq": [
+        "COE-I"
+      ]
+    },
+    {
+      "sigla": "EPM-III",
+      "nombre": "Electivo Profesional Minor 3",
+      "sct": 5,
+      "semestre": 7,
+      "categoria": "Profesional",
+      "prerreq": [
+        "EPM-II"
+      ]
+    },
+    {
+      "sigla": "EP-I",
+      "nombre": "Electivo profesional I",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "EP-II",
+      "nombre": "Electivo profesional II",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "EP-III",
+      "nombre": "Electivo profesional III",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "EP-IV",
+      "nombre": "Electivo profesional IV",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "EP-V",
+      "nombre": "Electivo profesional V",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "EP-VI",
+      "nombre": "Electivo profesional VI",
+      "sct": 5,
+      "semestre": 9,
+      "categoria": "Profesional",
+      "prerreq": []
+    },
+    {
+      "sigla": "CAPS",
+      "nombre": "CAPSTONE PROJECT",
+      "sct": 30,
+      "semestre": 10,
+      "categoria": "Profesional",
+      "prerreq": []
+    }
+  ]
+}
